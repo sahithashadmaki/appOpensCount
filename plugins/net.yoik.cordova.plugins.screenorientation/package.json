@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+        "spec": "git+https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:Telerik-Verified-Plugins/ScreenOrientation.git",
+          "sshUrl": "git+ssh://git@github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+          "httpsUrl": "git+https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+          "gitUrl": "git://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+          "shortcut": "github:Telerik-Verified-Plugins/ScreenOrientation",
+          "directUrl": "https://raw.githubusercontent.com/Telerik-Verified-Plugins/ScreenOrientation/master/package.json"
+        }
+      },
+      "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST"
+    ]
+  ],
+  "_from": "git+https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+  "_id": "cordova-plugin-screen-orientation@1.4.2",
+  "_inCache": true,
+  "_location": "/cordova-plugin-screen-orientation",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+    "spec": "git+https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:Telerik-Verified-Plugins/ScreenOrientation.git",
+      "sshUrl": "git+ssh://git@github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+      "httpsUrl": "git+https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+      "gitUrl": "git://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+      "shortcut": "github:Telerik-Verified-Plugins/ScreenOrientation",
+      "directUrl": "https://raw.githubusercontent.com/Telerik-Verified-Plugins/ScreenOrientation/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git#34066d87933b57a174e1e603fe23eb6031d50248",
+  "_shasum": "6d30bc97c27d4702ca2b41dd916a5f1fa0b996ab",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+  "_where": "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST",
+  "author": {
+    "name": "gbenvenuti"
+  },
+  "bugs": {
+    "url": "https://github.com/gbenvenuti/cordova-plugin-screen-orientation/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-screen-orientation",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Adds Screen Orientation API lock and unlock functions to the global screen object in android, iOS, WP8, W8.1, and BB10.",
+  "devDependencies": {},
+  "gitHead": "34066d87933b57a174e1e603fe23eb6031d50248",
+  "homepage": "https://github.com/gbenvenuti/cordova-plugin-screen-orientation#readme",
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "screen",
+    "orientation",
+    "portrait",
+    "landscape"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-screen-orientation",
+  "optionalDependencies": {},
+  "readme": "<!--\r\n# license: Licensed to the Apache Software Foundation (ASF) under one\r\n#         or more contributor license agreements.  See the NOTICE file\r\n#         distributed with this work for additional information\r\n#         regarding copyright ownership.  The ASF licenses this file\r\n#         to you under the Apache License, Version 2.0 (the\r\n#         \"License\"); you may not use this file except in compliance\r\n#         with the License.  You may obtain a copy of the License at\r\n#\r\n#           http://www.apache.org/licenses/LICENSE-2.0\r\n#\r\n#         Unless required by applicable law or agreed to in writing,\r\n#         software distributed under the License is distributed on an\r\n#         \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\r\n#         KIND, either express or implied.  See the License for the\r\n#         specific language governing permissions and limitations\r\n#         under the License.\r\n-->\r\n\r\n**This repository is no longer maintained.**\r\n\r\nThis plugin has been adopted as an Apache Cordova Core Plugin.\r\n\r\nThe new repository location is https://github.com/apache/cordova-plugin-screen-orientation.\r\n\r\nOpen Issues and Pull Requests have been resolved and closed or [migrated to Apache JIRA](https://issues.apache.org/jira/issues/?jql=component%20%3D%20%22Plugin%20Screen%20Orientation%22%20AND%20project%20%3D%20CB).\r\n\r\nPlease submit new Pull Requests to the Apache repo.\r\n\r\nPlease log new issues in Apache JIRA.\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbenvenuti/cordova-plugin-screen-orientation.git"
+  },
+  "version": "1.4.2"
+}

@@ -1,0 +1,217 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-whitelist"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-device"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device-motion": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-device-motion"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-dialogs": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-dialogs"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-network-information"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-statusbar"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-vibration": {
+    "source": {
+      "type": "local",
+      "path": "/Users/builder/BpcTooling/Cordova3/6.4.0/CorePlugins/cordova-plugin-vibration"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.shazron.cordova.plugin.keychainutil": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/Telerik-Verified-Plugins/Keychain.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "net.yoik.cordova.plugins.screenorientation": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/Telerik-Verified-Plugins/ScreenOrientation.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "uk.co.whiteoctober.cordova.appversion": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/Telerik-Verified-Plugins/AppVersion.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.phonegap.plugins.PushPlugin": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/orcasgit/PushNotification.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-globalization": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-globalization"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "com.brodysoft.sqlitePlugin": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/PJMCustomPlugin/sqlite-1-1-0.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.telerik.cordovaPlatformSpecificFiles": {
+    "source": {
+      "type": "local",
+      "path": "/tmp/builds/xrsKhJras1hFpVbN6q/app/Plugins/cordova-platform-specific-files"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-badge": {
+    "source": {
+      "type": "local",
+      "path": "/tmp/builds/xrsKhJras1hFpVbN6q/app/Plugins/cordova-plugin-badge-master"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-app-event": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-app-event"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-device-orientation": {
+    "source": {
+      "type": "local",
+      "path": "/tmp/builds/xrsKhJras1hFpVbN6q/app/Plugins/cordova-plugin-device-orientation-r1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-media": {
+    "source": {
+      "type": "local",
+      "path": "/tmp/builds/xrsKhJras1hFpVbN6q/app/Plugins/cordova-plugin-media-r1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-file": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-ios-longpress-fix": {
+    "source": {
+      "type": "local",
+      "path": "/tmp/builds/xrsKhJras1hFpVbN6q/app/Plugins/iOS-LongPress-fix-1.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-3dtouch": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-3dtouch"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@~1.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-pushplugin": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/orcasgit/PushNotification.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "de.appplant.cordova.plugin.email-composer": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/Telerik-Verified-Plugins/EmailComposer.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "hu.dpal.phonegap.plugins.SpinnerDialog": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/Telerik-Verified-Plugins/Spinner.git",
+      "subdir": "."
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@~3.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

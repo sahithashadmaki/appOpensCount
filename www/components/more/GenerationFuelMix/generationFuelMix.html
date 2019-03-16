@@ -1,0 +1,30 @@
+<div id="generationFuelMixView" data-role="view" data-title="Generation Fuel Mix" data-layout="pjm-default" data-elastic="false" 
+data-init="initPullToRefreshScrollerForGenerationFuelMix" data-before-show="generationFuelMixInit">
+    <link rel="stylesheet" href="components/more/GenerationFuelMix/generationFuelMix.css" />
+    <header data-role="header">
+        <div data-role="navbar">
+            <a href="#moreView" data-role="button" data-align="left" class="bc-more" data-click="backToMoreFromGenerationFuelMix" 
+                     data-transition='slide:right' data-icon="leftArrow">More</a>
+            <a id="generationFuelMixRefresh" class="tablateView" data-role="button" data-align="right" 
+                data-click="pullToRefreshForGenerationFuelMix"><img src="styles/images/rotate.png" width=25px height=25px>
+            </a>
+            <span data-role="view-title"></span>
+            <span data-align="center" id="tablateUpdatedDate" style="font-family: HelveticaNeue,sans-serif,Roboto regular;font-size:1em;display:block;font-weight:normal;" class="datediv"></span>
+        </div>
+    </header>
+    <script src="components/more/GenerationFuelMix/generationFuelMix.js"></script>
+    
+    <div id='generationFuelMixWhite' class='mapdivclr'>
+        <div id='viewAreaTrendPopup' style='display:none;text-align:center;padding-top:5px;'></div>
+        <div id="refreshmap" class="divbg">
+            <center id='updateGenerationFuelMix' style="display:none;padding-bottom:25px;">
+                <div><img id='rotatingImgGenerationFuelMix' src='styles/images/rotate.png' height='25px'/></div>
+                <span style="color:#5597C6; !important;padding-bottom:20px;">Updating</span>
+            </center>
+            <div id="refreshGenerationFuelMixPieChart" style="background-color:white !important;">
+                <div class='generationDateDiv' id="lastGenerationFuelMixUpdatedDate"></div>
+                <div id="generationFuelMixPieChart" ></div>
+            </div>
+       </div>
+    </div>
+</div>

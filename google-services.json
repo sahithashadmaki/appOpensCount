@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "463124901076",
+    "firebase_url": "https://pjmnowva.firebaseio.com",
+    "project_id": "pjmnowva",
+    "storage_bucket": "pjmnowva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463124901076:android:f6980e91f42e7685",
+        "android_client_info": {
+          "package_name": "com.pjm.pjmnowva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463124901076-68kc02m9vg3sio88m4akcs6pvrf5jv8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWmUqOU96hPjMc1oqYRB-dQ5s3ZvhFwaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

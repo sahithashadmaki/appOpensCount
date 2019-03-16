@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/orcasgit/PushNotification.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/orcasgit/PushNotification.git",
+        "spec": "git+https://github.com/orcasgit/PushNotification.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:orcasgit/PushNotification.git",
+          "sshUrl": "git+ssh://git@github.com/orcasgit/PushNotification.git",
+          "httpsUrl": "git+https://github.com/orcasgit/PushNotification.git",
+          "gitUrl": "git://github.com/orcasgit/PushNotification.git",
+          "shortcut": "github:orcasgit/PushNotification",
+          "directUrl": "https://raw.githubusercontent.com/orcasgit/PushNotification/master/package.json"
+        }
+      },
+      "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST"
+    ]
+  ],
+  "_from": "git+https://github.com/orcasgit/PushNotification.git",
+  "_id": "cordova-plugin-telerik-pushnotifications@3.0.5",
+  "_inCache": true,
+  "_location": "/cordova-plugin-telerik-pushnotifications",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/orcasgit/PushNotification.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/orcasgit/PushNotification.git",
+    "spec": "git+https://github.com/orcasgit/PushNotification.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:orcasgit/PushNotification.git",
+      "sshUrl": "git+ssh://git@github.com/orcasgit/PushNotification.git",
+      "httpsUrl": "git+https://github.com/orcasgit/PushNotification.git",
+      "gitUrl": "git://github.com/orcasgit/PushNotification.git",
+      "shortcut": "github:orcasgit/PushNotification",
+      "directUrl": "https://raw.githubusercontent.com/orcasgit/PushNotification/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/orcasgit/PushNotification.git#9eb4c33b9d7c79431c452ae5139aaba9c1e63b7a",
+  "_shasum": "f255485943e08dbcac8ebcada892e949aa25e14a",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/orcasgit/PushNotification.git",
+  "_where": "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST",
+  "cordova_name": "Telerik Push Notifications",
+  "dependencies": {},
+  "description": "This plugin allows your application to receive push notifications. Tailored for (but not limited to) Telerik Platform Backend Services.",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "9eb4c33b9d7c79431c452ae5139aaba9c1e63b7a",
+  "issue": "https://github.com/Telerik-Verified-Plugins/PushNotification/issues",
+  "keywords": [
+    "Push",
+    "Notification",
+    "Push Notifications",
+    "ecosystem:cordova"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-telerik-pushnotifications",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "readme": "# Telerik Push Notifications Plugin\r\n\r\n## Description\r\n\r\nThe Telerik Push Notifications is based on the [Phonegap Push Plugin](https://github.com/phonegap-build/PushPlugin).\r\n\r\nIt contains some bug fixes and new features and is easily integrated with [Telerik Backend Services](http://www.telerik.com/backend-services).\r\n\r\n## Using with Telerik Backend Services\r\n\r\nIn order to use the plugin with Telerik Backend Services, which supports iOS, Android, WP8 and Windows 8, take a look at the official documentation:\r\n\r\n- [Getting started with Push Notifications in a Hybrid Application with Telerik Backend Services](http://docs.telerik.com/platform/backend-services/getting-started/push-notifications/integrating-push-hybrid)\r\n\r\nFor further information you can take a look into the Backend Services hybrid push notifications samples:\r\n\r\n- [Backend Services Push Hybrid simple application](https://github.com/telerik/backend-services-push-hybrid) - basic example of using Push Notifications provided by Telerik Backend Services in a hybrid app built with Telerik AppBuilder.\r\n\r\n- [Backend Services Push Hybrid advanced application](https://github.com/telerik/backend-services-push-hybrid-advanced) - example of creating and receiving Push Notifications provided by Telerik Backend Services.\r\n\r\n## Features\r\n\r\n- Register a device for push notifications\r\n\r\n         var deviceSpecificOptions = { ... }; // set the device specific options here\r\n\t\t pushNotification.register(successHandler, errorHandler, deviceSpecificOptions);\r\n\r\n- Unregister a device from push notifications\r\n\r\n\t\tpushNotification.unregister(successHandler, errorHandler, options);\r\n\r\n\t\t\r\n- iOS 8 interactive push notifications support (available from v2.5 and above)\r\n  \r\n        // Get the push plugin instance\r\n\t\tvar pushPlugin = window.plugins.pushNotification;\r\n\r\n        // Define a new Read Action\r\n      \tvar readAction = {\r\n        \tidentifier: 'READ_IDENTIFIER', // mandatory\r\n        \ttitle: 'Read', // mandatory\r\n        \tactivationMode: pushPlugin.UserNotificationActivationMode.Foreground, // default: Background\r\n        \tdestructive: false, // default: false\r\n        \tauthenticationRequired: true // default: false\r\n      \t};\r\n\r\n      \t// Define a new Ignore Action. Defaults are commented out\r\n      \tvar ignoreAction = {\r\n\t        identifier: 'IGNORE_IDENTIFIER',\r\n        \ttitle: 'Ignore'\r\n        \t//activationMode: pushPlugin.UserNotificationActivationMode.Background,\r\n        \t//destructive: false,\r\n        \t//authenticationRequired: false\r\n      \t};\r\n\r\n      \t// Define a new Delete Action. Defaults are commented out.\r\n      \tvar deleteAction = {\r\n\t        identifier: 'DELETE_IDENTIFIER',\r\n        \ttitle: 'Delete',\r\n        \t//activationMode: pushPlugin.UserNotificationActivationMode.Background,\r\n        \tdestructive: true,\r\n        \tauthenticationRequired: true\r\n      \t};\r\n\r\n        // Define a read category with default and minimal context actions\r\n      \tvar readCategory = {\r\n        \tidentifier: 'READ_CATEGORY', // mandatory\r\n        \tactionsForDefaultContext: [readAction, ignoreAction, deleteAction], // mandatory\r\n        \tactionsForMinimalContext: [readAction, deleteAction]  // mandatory\r\n      \t};\r\n \r\n        // Define another category, with different set of actions\r\n      \tvar otherCategory = {\r\n\t        identifier: 'OTHER_CATEGORY', // mandatory\r\n        \tactionsForDefaultContext: [ignoreAction, deleteAction], // mandatory\r\n        \tactionsForMinimalContext: [deleteAction]  // mandatory\r\n      \t};\r\n \r\n        // Register the category and the other interactive settings.\r\n      \tpushPlugin.registerUserNotificationSettings(\r\n          \t// the success callback which will immediately return (APNs is not contacted for this)\r\n          \tonUserNotificationSettingsReady,\r\n          \t// called in case the configuration is incorrect\r\n          \terrorHandler,\r\n          \t{\r\n            \t\t// asking permission for these features\r\n            \t\ttypes: [\r\n              \t\t\tpushPlugin.UserNotificationTypes.Alert,\r\n        \t      \t\tpushPlugin.UserNotificationTypes.Badge,\r\n\t              \t\tpushPlugin.UserNotificationTypes.Sound\r\n            \t\t],\r\n            \t\t// register these categories\r\n            \t\tcategories: [\r\n              \t\t\treadCategory,\r\n              \t\t\totherCategory\r\n            \t\t]\r\n          \t}\r\n      \t);\r\n            \r\n\r\n- iOS 9 text input support (available from v3.1 and above)\r\n\r\n\t\t// Define a Text Input Action\r\n      \tvar replyAction = {\r\n        \tidentifier: 'REPLY_IDENTIFIER',\r\n        \ttitle: 'Reply', \r\n        \tactivationMode: window.plugins.pushNotification.UserNotificationActivationMode.Background,\r\n        \tdestructive: false,\r\n        \tauthenticationRequired: true,\r\n\t\tbehavior: window.plugins.pushNotification.ActionBehavior.TextInput\r\n      \t};\r\n\r\n- **IMPORTANT**: When using interactive iOS push notifications with background activation mode, you **must** call the following function, once you are done processing the push notification object:\r\n\r\n\t\tpushPlugin.notificationProcessed()\r\n This way you'll be able to execute your javascript callback and then notify the operating system to put back your app in background, which is the correct approach to handle such notifications by iOS.  \r\n\r\n\r\n- Set an application icon badge number (iOS only)\r\n\r\n\t\t// sets the application badge to the provided value \r\n\t\t// if badge === 0 clears out the badge \r\n\t\tpushNotification.setApplicationIconBadgeNumber(successCallback, errorCallback, badge)\r\n \r\n\r\n- Check if the user has disabled push notifications on the device\r\n\r\n\t\t// Checks whether Push Notifications are enabled for this Application on the Device \r\n\t\tpushNotification.areNotificationsEnabled(successCallback, errorCallback, options);\r\n\r\n- Handling multiple notifications on Android devices - Since version 2.4.3 of this plugin, all new notifications are stacked in the notification panel and do not replace previous notifications by default. To change this behavior and control which notifications are replaced and which are not, pass a **notId** key in the notification payload.\r\n\r\n  - To always stack new notifications, don't pass the **notId** value.\r\n\r\n\t\t\t\"data\": {\r\n        \t\t\"title\": \"Hello\",\r\n\t                \"message\": \"Always stack the notification.\", \r\n\t    \t}\r\n\r\n  - To always replace existing notifications, use the same positive (> 0) **notId** value for all notifications.\r\n\r\n\t\t\t\"data\": {\r\n\t        \t\"title\": \"Hello\",\r\n    \t        \"message\": \"Always replace the notification.\",\r\n\t\t        \"notId\": 1 // send the same notId every time \r\n\t    \t}\r\n\r\n  - If your application supports different kinds of push notifications, you can use a mixed approach based on your business logic. Notifications that are sent with the same **notId** value are replaced automatically, so only the last one is visible. For the rest of the notifications which should be stacked, just do not send a **notId** key in the payload.\r\n\r\n\t\t\t\"data\": {\r\n\t\t\t\t\"title\": \"Hello\",\r\n\t\t\t\t\"message\": \"This notification will be stacked.\"\r\n\t\t\t\t\"notId\": 5\r\n\t\t\t}\r\n\r\n\t\t\t\"data\": {\r\n\t\t\t\t\"title\": \"Hello\",\r\n\t\t\t\t\"message\": \"This notification will be stacked.\"\r\n\t\t\t\t\"notId\": 6\r\n\t\t\t}\r\n\r\n\t\t\t\"data\": {\r\n\t\t\t\t\"title\": \"Hello\",\r\n\t\t\t\t\"message\": \"This notification will replace the first one.\"\r\n\t\t\t\t\"notId\": 5\r\n\t\t\t}\r\n \r\n\r\n\r\n##<a name=\"license\"></a> LICENSE\r\n\r\n\tThe MIT License\r\n\r\n\tCopyright (c) 2012 Adobe Systems, inc.\r\n\tportions Copyright (c) 2012 Olivier Louvignes\r\n\r\n\tPermission is hereby granted, free of charge, to any person obtaining a copy\r\n\tof this software and associated documentation files (the \"Software\"), to deal\r\n\tin the Software without restriction, including without limitation the rights\r\n\tto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\n\tcopies of the Software, and to permit persons to whom the Software is\r\n\tfurnished to do so, subject to the following conditions:\r\n\r\n\tThe above copyright notice and this permission notice shall be included in\r\n\tall copies or substantial portions of the Software.\r\n\r\n\tTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\n\tIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\n\tFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\n\tAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\n\tLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\n\tOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\r\n\tTHE SOFTWARE.\r\n",
+  "readmeFilename": "README.md",
+  "repo": "https://github.com/Telerik-Verified-Plugins/PushNotification.git",
+  "version": "3.0.5"
+}

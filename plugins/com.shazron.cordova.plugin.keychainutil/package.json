@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/Telerik-Verified-Plugins/Keychain.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/Telerik-Verified-Plugins/Keychain.git",
+        "spec": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:Telerik-Verified-Plugins/Keychain.git",
+          "sshUrl": "git+ssh://git@github.com/Telerik-Verified-Plugins/Keychain.git",
+          "httpsUrl": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git",
+          "gitUrl": "git://github.com/Telerik-Verified-Plugins/Keychain.git",
+          "shortcut": "github:Telerik-Verified-Plugins/Keychain",
+          "directUrl": "https://raw.githubusercontent.com/Telerik-Verified-Plugins/Keychain/master/package.json"
+        }
+      },
+      "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST"
+    ]
+  ],
+  "_from": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git",
+  "_id": "Keychain@2.0.1",
+  "_inCache": true,
+  "_location": "/Keychain",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/Telerik-Verified-Plugins/Keychain.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/Telerik-Verified-Plugins/Keychain.git",
+    "spec": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:Telerik-Verified-Plugins/Keychain.git",
+      "sshUrl": "git+ssh://git@github.com/Telerik-Verified-Plugins/Keychain.git",
+      "httpsUrl": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git",
+      "gitUrl": "git://github.com/Telerik-Verified-Plugins/Keychain.git",
+      "shortcut": "github:Telerik-Verified-Plugins/Keychain",
+      "directUrl": "https://raw.githubusercontent.com/Telerik-Verified-Plugins/Keychain/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git#6658beef7bccf1055a5b490fa3d8232cb341f1d3",
+  "_shasum": "347a611a24e037e99a98952e3fd6f28c5c67fa07",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/Telerik-Verified-Plugins/Keychain.git",
+  "_where": "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST",
+  "author": {
+    "name": "EddyVerbruggen"
+  },
+  "bugs": {
+    "url": "https://github.com/Telerik-Verified-Plugins/Keychain/issues"
+  },
+  "cordova": {
+    "id": "com.shazron.cordova.plugin.keychainutil",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "This plugin allows your app access to the iOS KeyChain from Cordova. See: https://developer.apple.com/library/mac/documentation/security/conceptual/keychainServConcepts/iPhoneTasks/iPhoneTasks.html",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=2.2.0"
+    }
+  ],
+  "gitHead": "6658beef7bccf1055a5b490fa3d8232cb341f1d3",
+  "homepage": "https://github.com/Telerik-Verified-Plugins/Keychain#readme",
+  "keywords": [
+    "keychain",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "Keychain",
+  "optionalDependencies": {},
+  "readme": "Keychain Plugin for Apache Cordova\r\n=====================================\r\ncreated by Shazron Abdullah\r\n\r\n[Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html) except for the SFHFKeychainUtils code that is under **src/ios/SFHFKeychainUtils**\r\n\r\nFollows the [Cordova Plugin spec](http://cordova.apache.org/docs/en/3.0.0/plugin_ref_spec.md), so that it works with [Plugman](https://github.com/apache/cordova-plugman), or you can install it manually below.\r\n \r\nManually importing the plugin is not supported anymore, please use [Plugman](http://npmjs.org/plugman)     or the [Cordova CLI tool](http://npmjs.org/cordova)    \r\n\r\nThe \"Keychain\" object definition is installed globally. \r\n\r\nThe plugin's JavaScript functions are called after creating the plugin object thus:\r\n \r\n        var kc = new Keychain();\r\n        kc.getForKey(win, fail, \"some_key\", \"some_servicename\");\r\n\r\n### iCloud keychain enabled\r\n\r\niCloud keychain synchonizing is enabled, so the keychain will be mirrored across all devices *if* the user is signed in to iCloud (Settings > iCloud) and has iCloud keychain turned on (Settings > iCloud > Keychain)\r\n\r\n### Usage\r\n        \r\n**Important:**\r\n\r\n```js\r\nIf you are saving a JSON string value in setForKey, for example after applying JSON.stringify on an object, you must escape the characters in that string, if not you cannot retrieve it using getForKey.        \r\n\r\nvar obj = { foo: 'bar' };\r\nvar value = JSON.stringify(obj);\r\nvalue = value \r\n      .replace(/[\\\\]/g, '\\\\\\\\')\r\n      .replace(/[\\\"]/g, '\\\\\\\"')\r\n      .replace(/[\\/]/g, '\\\\/')\r\n      .replace(/[\\b]/g, '\\\\b')\r\n      .replace(/[\\f]/g, '\\\\f')\r\n      .replace(/[\\n]/g, '\\\\n')\r\n      .replace(/[\\r]/g, '\\\\r')\r\n      .replace(/[\\t]/g, '\\\\t');\r\n```\r\n\r\n              \r\nSee the **example** folder for example usage.\r\n\r\n```js\r\n// Get a reference to the plugin first\r\nvar kc = new Keychain();\r\n\r\n/*\r\n Retrieves a value for a key and servicename.\r\n \r\n @param successCallback returns the value as the argument to the callback when successful\r\n @param failureCallback returns the error string as the argument to the callback, for a failure\r\n @param key the key to retrieve\r\n @param servicename the servicename to use\r\n */\r\nkc.getForKey(successCallback, failureCallback, 'key', 'servicename');\r\n\r\n/*\r\n Sets a value for a key and servicename.\r\n \r\n @param successCallback returns when successful\r\n @param failureCallback returns the error string as the argument to the callback, for a failure\r\n @param key the key to set\r\n @param servicename the servicename to use\r\n @param value the value to set\r\n */\r\nkc.setForKey(successCallback, failureCallback, 'key', 'servicename', 'value');\r\n\r\n/*\r\n Removes a value for a key and servicename.\r\n \r\n @param successCallback returns when successful\r\n @param failureCallback returns the error string as the argument to the callback\r\n @param key the key to remove\r\n @param servicename the servicename to use\r\n */\r\nkc.removeForKey(successCallback, failureCallback, 'key', 'servicename');\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Telerik-Verified-Plugins/Keychain.git"
+  },
+  "version": "2.0.1"
+}

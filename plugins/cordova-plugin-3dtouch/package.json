@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-3dtouch",
+        "scope": null,
+        "escapedName": "cordova-plugin-3dtouch",
+        "name": "cordova-plugin-3dtouch",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST"
+    ]
+  ],
+  "_from": "cordova-plugin-3dtouch@latest",
+  "_id": "cordova-plugin-3dtouch@1.3.5",
+  "_inCache": true,
+  "_location": "/cordova-plugin-3dtouch",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-3dtouch-1.3.5.tgz_1459452403781_0.1550293993204832"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-3dtouch",
+    "scope": null,
+    "escapedName": "cordova-plugin-3dtouch",
+    "name": "cordova-plugin-3dtouch",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-3dtouch/-/cordova-plugin-3dtouch-1.3.5.tgz",
+  "_shasum": "93332d649c09b35538d42f6ac9dc8c768eaa522f",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-3dtouch",
+  "_where": "E:\\phonegap\\PJMNOWTEST\\PJMNOWTEST",
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
+  "bugs": {
+    "url": "https://github.com/EddyVerbruggen/cordova-plugin-3dtouch/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-3dtouch",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Add Quick Actions to your Home Screen which can be triggered by 3D Touch. Also, you can enable Link Preview with this plugin. Supported on iPhone6S an up.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "93332d649c09b35538d42f6ac9dc8c768eaa522f",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-3dtouch/-/cordova-plugin-3dtouch-1.3.5.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.5.0"
+    }
+  ],
+  "gitHead": "02afe8d707f598aef05984067baf5d33e3c7f3e2",
+  "homepage": "https://github.com/EddyVerbruggen/cordova-plugin-3dtouch#readme",
+  "keywords": [
+    "3DTouch",
+    "3D Touch",
+    "Force",
+    "Force Touch",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-3dtouch",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyVerbruggen/cordova-plugin-3dtouch.git"
+  },
+  "scripts": {},
+  "version": "1.3.5"
+}
